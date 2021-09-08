@@ -83,7 +83,6 @@
 				5593C61026E91B0900B389B1 /* Support */,
 				5593C61126E91B1500B389B1 /* Utilities */,
 				5593C61326E91B8000B389B1 /* Extensions */,
-				5506C7E726E4545200B47E38 /* Assets.xcassets */,
 				5506C7EC26E4545200B47E38 /* Info.plist */,
 			);
 			path = Flix;
@@ -108,13 +107,10 @@
 		5593C60F26E91AEB00B389B1 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				55AFBD7426E56BA500939728 /* OVAlert.swift */,
-				55AFBD8026E56D2D00939728 /* OVEmptyStateView.swift */,
-				55AFBD7626E56BF700939728 /* OVTitleLabel.swift */,
-				55AFBD7826E56C2100939728 /* OVBodyLabel.swift */,
-				55AFBD7A26E56C5A00939728 /* OVButton.swift */,
-				55AFBD7C26E56CB300939728 /* OVAlertContainerView.swift */,
-				55AFBD7E26E56CFD00939728 /* OVAlertVC.swift */,
+				5593C61726E91F6900B389B1 /* Views */,
+				5593C61626E91F3F00B389B1 /* ViewController */,
+				5593C61526E91F0D00B389B1 /* Labels */,
+				5593C61426E91ED800B389B1 /* Buttons */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -122,6 +118,7 @@
 		5593C61026E91B0900B389B1 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				5506C7E726E4545200B47E38 /* Assets.xcassets */,
 				5506C7E026E4545100B47E38 /* SceneDelegate.swift */,
 				5506C7DE26E4545100B47E38 /* AppDelegate.swift */,
 				55AFBD6826E4FD5D00939728 /* Constants.swift */,
@@ -151,6 +148,41 @@
 				55AFBD7226E56B4F00939728 /* UIViewController+Ext.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5593C61426E91ED800B389B1 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				55AFBD7A26E56C5A00939728 /* OVButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		5593C61526E91F0D00B389B1 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				55AFBD7826E56C2100939728 /* OVBodyLabel.swift */,
+				55AFBD7626E56BF700939728 /* OVTitleLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		5593C61626E91F3F00B389B1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55AFBD7426E56BA500939728 /* OVAlert.swift */,
+				55AFBD7E26E56CFD00939728 /* OVAlertVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		5593C61726E91F6900B389B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55AFBD8026E56D2D00939728 /* OVEmptyStateView.swift */,
+				55AFBD7C26E56CB300939728 /* OVAlertContainerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

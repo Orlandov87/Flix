@@ -14,7 +14,6 @@ class NetworkManager {
     
     private init() {}
     
-    
     func getMovies(completed: @escaping(Result<[Movie], OVError>) -> Void) {
         guard let url = URL(string: baseURL) else {
             completed(.failure(.invalidResponse))
@@ -37,12 +36,11 @@ class NetworkManager {
                 return
             }
             
-            //try catch block
             do {
                 let decoder = JSONDecoder()
                 decoder.keyDecodingStrategy = .convertFromSnakeCase
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
-                //print(dataDictionary.capacity)
+
                 var apiData = [[String:Any]]()
                 var movies: [Movie] = []
                 
@@ -57,21 +55,9 @@ class NetworkManager {
                     overview = movie["overview"] as! String
                     poster = movie["poster_path"] as! String
                     
-                    
-                    let temp = Movie(overview: title, posterPath: poster, title: overview)
-                    
-                    movies.append(temp)
+                    movies.append(Movie(overview: title, posterPath: poster, title: overview))
                 }
-                
-                //print(movies[0]["title"]!)
-               // print(movies[0]["overview"]!)
-                //print(movies[0]["poster_path"]!)
-                
-                //let movies = try! decoder.decode([Movie].self, from: data)
                 completed(.success(movies))
-
-            } catch {
-                completed(.failure(.invalidData))
             }
         }
         task.resume()

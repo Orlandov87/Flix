@@ -41,7 +41,6 @@ class MoviesTVC: UITableViewController {
                     DispatchQueue.main.async {
                         //self.showEmptyStateView(with: message, in: self.view)
                     }
-                    
                 }
                 self.updateData(on: self.movies)
                 
