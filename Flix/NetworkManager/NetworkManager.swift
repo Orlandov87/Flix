@@ -37,8 +37,6 @@ class NetworkManager {
             }
             
             do {
-                let decoder = JSONDecoder()
-                decoder.keyDecodingStrategy = .convertFromSnakeCase
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
 
                 var apiData = [[String:Any]]()
