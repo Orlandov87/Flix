@@ -9,19 +9,41 @@
 /* Begin PBXBuildFile section */
 		5506C7DF26E4545100B47E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506C7DE26E4545100B47E38 /* AppDelegate.swift */; };
 		5506C7E126E4545100B47E38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506C7E026E4545100B47E38 /* SceneDelegate.swift */; };
-		5506C7E326E4545100B47E38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506C7E226E4545100B47E38 /* ViewController.swift */; };
+		5506C7E326E4545100B47E38 /* MoviesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5506C7E226E4545100B47E38 /* MoviesTVC.swift */; };
 		5506C7E826E4545200B47E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5506C7E726E4545200B47E38 /* Assets.xcassets */; };
-		5506C7EB26E4545200B47E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5506C7E926E4545200B47E38 /* LaunchScreen.storyboard */; };
+		55AFBD6926E4FD5D00939728 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD6826E4FD5D00939728 /* Constants.swift */; };
+		55AFBD6B26E5607E00939728 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD6A26E5607E00939728 /* NetworkManager.swift */; };
+		55AFBD6D26E561DC00939728 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD6C26E561DC00939728 /* Movie.swift */; };
+		55AFBD7126E5626900939728 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7026E5626900939728 /* ErrorMessage.swift */; };
+		55AFBD7326E56B4F00939728 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7226E56B4F00939728 /* UIViewController+Ext.swift */; };
+		55AFBD7526E56BA500939728 /* OVAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7426E56BA500939728 /* OVAlert.swift */; };
+		55AFBD7726E56BF700939728 /* OVTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7626E56BF700939728 /* OVTitleLabel.swift */; };
+		55AFBD7926E56C2100939728 /* OVBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7826E56C2100939728 /* OVBodyLabel.swift */; };
+		55AFBD7B26E56C5A00939728 /* OVButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7A26E56C5A00939728 /* OVButton.swift */; };
+		55AFBD7D26E56CB300939728 /* OVAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7C26E56CB300939728 /* OVAlertContainerView.swift */; };
+		55AFBD7F26E56CFD00939728 /* OVAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7E26E56CFD00939728 /* OVAlertVC.swift */; };
+		55AFBD8126E56D2D00939728 /* OVEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD8026E56D2D00939728 /* OVEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5506C7DB26E4545100B47E38 /* Flix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5506C7DE26E4545100B47E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5506C7E026E4545100B47E38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5506C7E226E4545100B47E38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5506C7E226E4545100B47E38 /* MoviesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTVC.swift; sourceTree = "<group>"; };
 		5506C7E726E4545200B47E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5506C7EA26E4545200B47E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5506C7EC26E4545200B47E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AFBD6826E4FD5D00939728 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		55AFBD6A26E5607E00939728 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		55AFBD6C26E561DC00939728 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		55AFBD7026E5626900939728 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		55AFBD7226E56B4F00939728 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		55AFBD7426E56BA500939728 /* OVAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVAlert.swift; sourceTree = "<group>"; };
+		55AFBD7626E56BF700939728 /* OVTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVTitleLabel.swift; sourceTree = "<group>"; };
+		55AFBD7826E56C2100939728 /* OVBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVBodyLabel.swift; sourceTree = "<group>"; };
+		55AFBD7A26E56C5A00939728 /* OVButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVButton.swift; sourceTree = "<group>"; };
+		55AFBD7C26E56CB300939728 /* OVAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVAlertContainerView.swift; sourceTree = "<group>"; };
+		55AFBD7E26E56CFD00939728 /* OVAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVAlertVC.swift; sourceTree = "<group>"; };
+		55AFBD8026E56D2D00939728 /* OVEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,81 @@
 		5506C7DD26E4545100B47E38 /* Flix */ = {
 			isa = PBXGroup;
 			children = (
-				5506C7DE26E4545100B47E38 /* AppDelegate.swift */,
-				5506C7E026E4545100B47E38 /* SceneDelegate.swift */,
-				5506C7E226E4545100B47E38 /* ViewController.swift */,
+				5593C61226E91B5C00B389B1 /* Screens */,
+				5593C60F26E91AEB00B389B1 /* CustomViews */,
+				5593C60D26E91A1500B389B1 /* Modals */,
+				5593C60E26E91ACA00B389B1 /* NetworkManager */,
+				5593C61026E91B0900B389B1 /* Support */,
+				5593C61126E91B1500B389B1 /* Utilities */,
+				5593C61326E91B8000B389B1 /* Extensions */,
 				5506C7E726E4545200B47E38 /* Assets.xcassets */,
-				5506C7E926E4545200B47E38 /* LaunchScreen.storyboard */,
 				5506C7EC26E4545200B47E38 /* Info.plist */,
 			);
 			path = Flix;
+			sourceTree = "<group>";
+		};
+		5593C60D26E91A1500B389B1 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				55AFBD6C26E561DC00939728 /* Movie.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		5593C60E26E91ACA00B389B1 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				55AFBD6A26E5607E00939728 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		5593C60F26E91AEB00B389B1 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				55AFBD7426E56BA500939728 /* OVAlert.swift */,
+				55AFBD8026E56D2D00939728 /* OVEmptyStateView.swift */,
+				55AFBD7626E56BF700939728 /* OVTitleLabel.swift */,
+				55AFBD7826E56C2100939728 /* OVBodyLabel.swift */,
+				55AFBD7A26E56C5A00939728 /* OVButton.swift */,
+				55AFBD7C26E56CB300939728 /* OVAlertContainerView.swift */,
+				55AFBD7E26E56CFD00939728 /* OVAlertVC.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		5593C61026E91B0900B389B1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5506C7E026E4545100B47E38 /* SceneDelegate.swift */,
+				5506C7DE26E4545100B47E38 /* AppDelegate.swift */,
+				55AFBD6826E4FD5D00939728 /* Constants.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		5593C61126E91B1500B389B1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				55AFBD7026E5626900939728 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5593C61226E91B5C00B389B1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5506C7E226E4545100B47E38 /* MoviesTVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5593C61326E91B8000B389B1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				55AFBD7226E56B4F00939728 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +210,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5506C7EB26E4545200B47E38 /* LaunchScreen.storyboard in Resources */,
 				5506C7E826E4545200B47E38 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,24 +221,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5506C7E326E4545100B47E38 /* ViewController.swift in Sources */,
+				55AFBD8126E56D2D00939728 /* OVEmptyStateView.swift in Sources */,
+				55AFBD7D26E56CB300939728 /* OVAlertContainerView.swift in Sources */,
+				5506C7E326E4545100B47E38 /* MoviesTVC.swift in Sources */,
+				55AFBD7126E5626900939728 /* ErrorMessage.swift in Sources */,
+				55AFBD7B26E56C5A00939728 /* OVButton.swift in Sources */,
 				5506C7DF26E4545100B47E38 /* AppDelegate.swift in Sources */,
+				55AFBD6D26E561DC00939728 /* Movie.swift in Sources */,
+				55AFBD6B26E5607E00939728 /* NetworkManager.swift in Sources */,
 				5506C7E126E4545100B47E38 /* SceneDelegate.swift in Sources */,
+				55AFBD7F26E56CFD00939728 /* OVAlertVC.swift in Sources */,
+				55AFBD7926E56C2100939728 /* OVBodyLabel.swift in Sources */,
+				55AFBD7526E56BA500939728 /* OVAlert.swift in Sources */,
+				55AFBD7326E56B4F00939728 /* UIViewController+Ext.swift in Sources */,
+				55AFBD7726E56BF700939728 /* OVTitleLabel.swift in Sources */,
+				55AFBD6926E4FD5D00939728 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5506C7E926E4545200B47E38 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5506C7EA26E4545200B47E38 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5506C7ED26E4545200B47E38 /* Debug */ = {
