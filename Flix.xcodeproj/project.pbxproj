@@ -16,17 +16,10 @@
 		5593C61F26E9579E00B389B1 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593C61E26E9579E00B389B1 /* MovieCell.swift */; };
 		5593C62126E958EF00B389B1 /* OVPosterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593C62026E958EF00B389B1 /* OVPosterImageView.swift */; };
 		55AFBD6926E4FD5D00939728 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD6826E4FD5D00939728 /* Constants.swift */; };
-		55AFBD6B26E5607E00939728 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD6A26E5607E00939728 /* NetworkManager.swift */; };
-		55AFBD6D26E561DC00939728 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD6C26E561DC00939728 /* Movie.swift */; };
 		55AFBD7126E5626900939728 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7026E5626900939728 /* ErrorMessage.swift */; };
-		55AFBD7326E56B4F00939728 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7226E56B4F00939728 /* UIViewController+Ext.swift */; };
-		55AFBD7526E56BA500939728 /* OVAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7426E56BA500939728 /* OVAlert.swift */; };
 		55AFBD7726E56BF700939728 /* OVTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7626E56BF700939728 /* OVTitleLabel.swift */; };
 		55AFBD7926E56C2100939728 /* OVBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7826E56C2100939728 /* OVBodyLabel.swift */; };
 		55AFBD7B26E56C5A00939728 /* OVButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7A26E56C5A00939728 /* OVButton.swift */; };
-		55AFBD7D26E56CB300939728 /* OVAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7C26E56CB300939728 /* OVAlertContainerView.swift */; };
-		55AFBD7F26E56CFD00939728 /* OVAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD7E26E56CFD00939728 /* OVAlertVC.swift */; };
-		55AFBD8126E56D2D00939728 /* OVEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AFBD8026E56D2D00939728 /* OVEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,17 +33,10 @@
 		5593C61E26E9579E00B389B1 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		5593C62026E958EF00B389B1 /* OVPosterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVPosterImageView.swift; sourceTree = "<group>"; };
 		55AFBD6826E4FD5D00939728 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		55AFBD6A26E5607E00939728 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		55AFBD6C26E561DC00939728 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		55AFBD7026E5626900939728 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
-		55AFBD7226E56B4F00939728 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
-		55AFBD7426E56BA500939728 /* OVAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVAlert.swift; sourceTree = "<group>"; };
 		55AFBD7626E56BF700939728 /* OVTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVTitleLabel.swift; sourceTree = "<group>"; };
 		55AFBD7826E56C2100939728 /* OVBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVBodyLabel.swift; sourceTree = "<group>"; };
 		55AFBD7A26E56C5A00939728 /* OVButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVButton.swift; sourceTree = "<group>"; };
-		55AFBD7C26E56CB300939728 /* OVAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVAlertContainerView.swift; sourceTree = "<group>"; };
-		55AFBD7E26E56CFD00939728 /* OVAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVAlertVC.swift; sourceTree = "<group>"; };
-		55AFBD8026E56D2D00939728 /* OVEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVEmptyStateView.swift; sourceTree = "<group>"; };
 		8B6979A6CA2E31B6253F58CD /* Pods-Flix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.release.xcconfig"; path = "Target Support Files/Pods-Flix/Pods-Flix.release.xcconfig"; sourceTree = "<group>"; };
 		A1FD639801399C4823A9BA06 /* Pods-Flix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flix.debug.xcconfig"; path = "Target Support Files/Pods-Flix/Pods-Flix.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,37 +86,17 @@
 			children = (
 				5593C61226E91B5C00B389B1 /* Screens */,
 				5593C60F26E91AEB00B389B1 /* CustomViews */,
-				5593C60D26E91A1500B389B1 /* Modals */,
-				5593C60E26E91ACA00B389B1 /* NetworkManager */,
 				5593C61026E91B0900B389B1 /* Support */,
 				5593C61126E91B1500B389B1 /* Utilities */,
-				5593C61326E91B8000B389B1 /* Extensions */,
 				5506C7EC26E4545200B47E38 /* Info.plist */,
 			);
 			path = Flix;
-			sourceTree = "<group>";
-		};
-		5593C60D26E91A1500B389B1 /* Modals */ = {
-			isa = PBXGroup;
-			children = (
-				55AFBD6C26E561DC00939728 /* Movie.swift */,
-			);
-			path = Modals;
-			sourceTree = "<group>";
-		};
-		5593C60E26E91ACA00B389B1 /* NetworkManager */ = {
-			isa = PBXGroup;
-			children = (
-				55AFBD6A26E5607E00939728 /* NetworkManager.swift */,
-			);
-			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 		5593C60F26E91AEB00B389B1 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
 				5593C61726E91F6900B389B1 /* Views */,
-				5593C61626E91F3F00B389B1 /* ViewController */,
 				5593C61526E91F0D00B389B1 /* Labels */,
 				5593C61426E91ED800B389B1 /* Buttons */,
 			);
@@ -164,14 +130,6 @@
 			path = Screens;
 			sourceTree = "<group>";
 		};
-		5593C61326E91B8000B389B1 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				55AFBD7226E56B4F00939728 /* UIViewController+Ext.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		5593C61426E91ED800B389B1 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,21 +147,10 @@
 			path = Labels;
 			sourceTree = "<group>";
 		};
-		5593C61626E91F3F00B389B1 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				55AFBD7426E56BA500939728 /* OVAlert.swift */,
-				55AFBD7E26E56CFD00939728 /* OVAlertVC.swift */,
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
 		5593C61726E91F6900B389B1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				5593C62026E958EF00B389B1 /* OVPosterImageView.swift */,
-				55AFBD8026E56D2D00939728 /* OVEmptyStateView.swift */,
-				55AFBD7C26E56CB300939728 /* OVAlertContainerView.swift */,
 				5593C61E26E9579E00B389B1 /* MovieCell.swift */,
 			);
 			path = Views;
@@ -335,21 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55AFBD8126E56D2D00939728 /* OVEmptyStateView.swift in Sources */,
-				55AFBD7D26E56CB300939728 /* OVAlertContainerView.swift in Sources */,
 				5593C62126E958EF00B389B1 /* OVPosterImageView.swift in Sources */,
 				5506C7E326E4545100B47E38 /* MoviesTVC.swift in Sources */,
 				55AFBD7126E5626900939728 /* ErrorMessage.swift in Sources */,
 				55AFBD7B26E56C5A00939728 /* OVButton.swift in Sources */,
 				5506C7DF26E4545100B47E38 /* AppDelegate.swift in Sources */,
-				55AFBD6D26E561DC00939728 /* Movie.swift in Sources */,
-				55AFBD6B26E5607E00939728 /* NetworkManager.swift in Sources */,
 				5506C7E126E4545100B47E38 /* SceneDelegate.swift in Sources */,
-				55AFBD7F26E56CFD00939728 /* OVAlertVC.swift in Sources */,
 				5593C61F26E9579E00B389B1 /* MovieCell.swift in Sources */,
 				55AFBD7926E56C2100939728 /* OVBodyLabel.swift in Sources */,
-				55AFBD7526E56BA500939728 /* OVAlert.swift in Sources */,
-				55AFBD7326E56B4F00939728 /* UIViewController+Ext.swift in Sources */,
 				55AFBD7726E56BF700939728 /* OVTitleLabel.swift in Sources */,
 				55AFBD6926E4FD5D00939728 /* Constants.swift in Sources */,
 			);
@@ -490,7 +430,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Orlando.Vargas.Flix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -510,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Orlando.Vargas.Flix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

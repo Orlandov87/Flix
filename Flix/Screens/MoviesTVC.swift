@@ -11,9 +11,7 @@ import AlamofireImage
 class MoviesTVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var tableView: UITableView = UITableView()
-
     var movies = [[String: Any]]()
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,10 +51,7 @@ class MoviesTVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
                 JSONSerialization.jsonObject(with: data, options: []) as! [String:Any]
                 
                 self.movies = dataDictionary["results"] as! [[String:Any]]
-                
                 self.tableView.reloadData()
-                //print(dataDictionary)
-                
             }
         }
         task.resume()
@@ -75,16 +70,11 @@ class MoviesTVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         
         cell.titleLabel.text = title
         cell.bodyLabel.text = body
-        
-        let baseURL = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
-        let posterUrl = URL(string: baseURL + posterPath)
+        let posterUrl = URL(string: Constants.OVURL.posterBaseURL + posterPath)
         
-        cell.movieView.af_setImage(withURL: posterUrl!)
-        
-        
+        cell.movieView.af.setImage(withURL: posterUrl!)
         
         return cell
     }
-
 }
