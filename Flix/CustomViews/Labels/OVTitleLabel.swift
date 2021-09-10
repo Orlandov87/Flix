@@ -28,9 +28,9 @@ class OVTitleLabel: UILabel {
     private func configure() {
         textColor = .label
         adjustsFontSizeToFitWidth = true
-        minimumScaleFactor = 0.9
-        numberOfLines = 0
-        lineBreakMode = .byTruncatingTail
+        minimumScaleFactor = 0.75
+        numberOfLines = 2
+        lineBreakMode = .byWordWrapping
         translatesAutoresizingMaskIntoConstraints = false
     }
 }

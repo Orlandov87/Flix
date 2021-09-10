@@ -73,7 +73,7 @@ class MoviesTVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: Constants.OVURL.posterBaseURL + posterPath)
         
-        cell.movieView.af.setImage(withURL: posterUrl!)
+        cell.posterView.af.setImage(withURL: posterUrl!)
         
         return cell
     }

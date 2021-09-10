@@ -63,6 +63,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		5503414D26EC1EA200AE93D9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5593C61E26E9579E00B389B1 /* MovieCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		5506C7D226E4545100B47E38 = {
 			isa = PBXGroup;
 			children = (
@@ -150,8 +158,8 @@
 		5593C61726E91F6900B389B1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5503414D26EC1EA200AE93D9 /* Cells */,
 				5593C62026E958EF00B389B1 /* OVPosterImageView.swift */,
-				5593C61E26E9579E00B389B1 /* MovieCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
