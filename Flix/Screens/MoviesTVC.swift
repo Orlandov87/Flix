@@ -31,7 +31,7 @@ class MoviesTVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         tableView.register(MovieCell.self, forCellReuseIdentifier: MovieCell.identifier)
         
         tableView.translatesAutoresizingMaskIntoConstraints = false
-        
+        tableView.rowHeight = 150
         NSLayoutConstraint.activate([
             tableView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
@@ -86,8 +86,5 @@ class MoviesTVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         
         return cell
     }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 200
-    }
+
 }
