@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = createHomeVC()
+        window?.rootViewController = createTabBarVC()
         window?.makeKeyAndVisible()
     }
     
@@ -24,6 +24,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         homeVC.title = Constants.Title.movieTabTitle
         
         return UINavigationController(rootViewController: homeVC)
+    }
+    
+    func createSuperHeroVC() -> UINavigationController {
+        let superVC = SuperHeroVC()
+        superVC.title = Constants.Title.superHeroTabTitle
+        
+        return UINavigationController(rootViewController: superVC)
+    }
+    
+    func createTabBarVC() -> UITabBarController {
+        let tabbar = UITabBarController()
+        UITabBar.appearance().tintColor = .green
+        tabbar.viewControllers = [createHomeVC(), createSuperHeroVC()]
+        
+        return tabbar
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

@@ -10,7 +10,8 @@ import Foundation
 struct Constants {
     struct Title {
         static let appTitle = "Flix"
-        static let movieTabTitle = "Movies"
+        static let movieTabTitle = "Now Playing"
+        static let superHeroTabTitle = "SuperHero"
     }
     
     struct OVURL {

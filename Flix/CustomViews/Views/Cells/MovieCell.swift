@@ -43,7 +43,8 @@ class MovieCell: UITableViewCell {
             
             titleLabel.topAnchor.constraint(equalTo: topAnchor, constant: 16),
             titleLabel.leadingAnchor.constraint(equalTo: posterView.trailingAnchor, constant: 16),
-            titleLabel.heightAnchor.constraint(equalToConstant: 32),
+            titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor,constant: -16),
+            titleLabel.heightAnchor.constraint(equalToConstant: 48),
             
             bodyLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
             bodyLabel.leadingAnchor.constraint(equalTo: posterView.trailingAnchor, constant: 16),
