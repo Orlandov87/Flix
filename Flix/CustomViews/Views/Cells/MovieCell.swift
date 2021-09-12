@@ -17,7 +17,7 @@ class MovieCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         configure()
-        viewHelp()
+//        viewHelp()
     }
     
     required init?(coder: NSCoder) {
@@ -36,20 +36,20 @@ class MovieCell: UITableViewCell {
         addSubview(posterView)
         
         NSLayoutConstraint.activate([
-            posterView.topAnchor.constraint(equalTo: topAnchor, constant: 16),
-            posterView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -16),
+            posterView.topAnchor.constraint(equalTo: topAnchor, constant: 8),
+            posterView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -8),
             posterView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16),
-            posterView.widthAnchor.constraint(equalToConstant: 110),
+            posterView.widthAnchor.constraint(equalToConstant: 120),
             
-            titleLabel.topAnchor.constraint(equalTo: topAnchor, constant: 16),
+            titleLabel.topAnchor.constraint(equalTo: topAnchor, constant: 8),
             titleLabel.leadingAnchor.constraint(equalTo: posterView.trailingAnchor, constant: 16),
             titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor,constant: -16),
-            titleLabel.heightAnchor.constraint(equalToConstant: 48),
+            titleLabel.heightAnchor.constraint(equalToConstant: 46),
             
             bodyLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
-            bodyLabel.leadingAnchor.constraint(equalTo: posterView.trailingAnchor, constant: 16),
+            bodyLabel.leadingAnchor.constraint(equalTo: posterView.trailingAnchor, constant: 8),
             bodyLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
-            bodyLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -16)
+            bodyLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -8)
         ])
     }
 }

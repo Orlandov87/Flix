@@ -66,9 +66,12 @@ class MoviesTVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         
         let movie = movies[indexPath.row]
         let title = movie["title"] as! String
-        let body = movie["overview"] as! String
+        var body = movie["overview"] as! String
         
         cell.titleLabel.text = title
+        if body.isEmpty {
+            body = "     NO INFORMATION"
+        }
         cell.bodyLabel.text = body
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: Constants.OVURL.posterBaseURL + posterPath)
