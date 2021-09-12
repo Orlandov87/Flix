@@ -22,6 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func createHomeVC() -> UINavigationController {
         let homeVC = MoviesTVC()
         homeVC.title = Constants.Title.movieTabTitle
+        homeVC.tabBarItem = UITabBarItem(title: "Now Playing", image: UIImage(named: "now_playing_tabbar_item"), tag: 1)
         
         return UINavigationController(rootViewController: homeVC)
     }
@@ -29,14 +30,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func createSuperHeroVC() -> UINavigationController {
         let superVC = SuperHeroVC()
         superVC.title = Constants.Title.superHeroTabTitle
+        superVC.tabBarItem = UITabBarItem(title: "Superhero", image: UIImage(named: "superhero_tabbar_item"), tag: 1)
         
         return UINavigationController(rootViewController: superVC)
     }
     
     func createTabBarVC() -> UITabBarController {
         let tabbar = UITabBarController()
-        UITabBar.appearance().tintColor = .green
         tabbar.viewControllers = [createHomeVC(), createSuperHeroVC()]
+        
         
         return tabbar
     }

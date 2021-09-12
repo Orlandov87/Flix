@@ -14,6 +14,7 @@
 		5506C7E826E4545200B47E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5506C7E726E4545200B47E38 /* Assets.xcassets */; };
 		5590F1AA26EE181F00D06B06 /* SuperHeroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590F1A926EE181F00D06B06 /* SuperHeroVC.swift */; };
 		5590F1AC26EE1B7800D06B06 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590F1AB26EE1B7800D06B06 /* UIHelper.swift */; };
+		5590F1AE26EEBB8C00D06B06 /* MovieCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590F1AD26EEBB8C00D06B06 /* MovieCollectionCell.swift */; };
 		55923E7E26E969FC00302634 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 55923E7D26E969FC00302634 /* AlamofireImage */; };
 		5593C61F26E9579E00B389B1 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593C61E26E9579E00B389B1 /* MovieCell.swift */; };
 		5593C62126E958EF00B389B1 /* OVPosterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5593C62026E958EF00B389B1 /* OVPosterImageView.swift */; };
@@ -34,6 +35,7 @@
 		5506C7EC26E4545200B47E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5590F1A926EE181F00D06B06 /* SuperHeroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroVC.swift; sourceTree = "<group>"; };
 		5590F1AB26EE1B7800D06B06 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		5590F1AD26EEBB8C00D06B06 /* MovieCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionCell.swift; sourceTree = "<group>"; };
 		5593C61E26E9579E00B389B1 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		5593C62026E958EF00B389B1 /* OVPosterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OVPosterImageView.swift; sourceTree = "<group>"; };
 		55AFBD6826E4FD5D00939728 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				5593C61E26E9579E00B389B1 /* MovieCell.swift */,
+				5590F1AD26EEBB8C00D06B06 /* MovieCollectionCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				55AFBD7B26E56C5A00939728 /* OVButton.swift in Sources */,
 				5506C7DF26E4545100B47E38 /* AppDelegate.swift in Sources */,
 				5590F1AA26EE181F00D06B06 /* SuperHeroVC.swift in Sources */,
+				5590F1AE26EEBB8C00D06B06 /* MovieCollectionCell.swift in Sources */,
 				5506C7E126E4545100B47E38 /* SceneDelegate.swift in Sources */,
 				5593C61F26E9579E00B389B1 /* MovieCell.swift in Sources */,
 				55AFBD7926E56C2100939728 /* OVBodyLabel.swift in Sources */,
