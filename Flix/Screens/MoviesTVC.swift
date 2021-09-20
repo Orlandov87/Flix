@@ -25,6 +25,11 @@ class MoviesTVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         getMovies()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        view.isHidden = false
+        tableView.selectionFollowsFocus = false
+    }
+    
     private func configureHomeView() {
         view.addSubview(tableView)
         view.backgroundColor = .systemBackground
@@ -90,6 +95,7 @@ class MoviesTVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let destination = DetailVC()
         destination.didTapChoice(movie: movies[indexPath.row])
+        self.view.isHidden = true
         navigationController?.pushViewController(destination, animated: true)
     }
 }
