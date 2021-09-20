@@ -34,7 +34,7 @@ class SuperHeroVC: UIViewController, UICollectionViewDataSource, UICollectionVie
     }
     
     private func getMovies() {
-        let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
+        let url = URL(string: "https://api.themoviedb.org/3/movie/297762/similar?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringCacheData, timeoutInterval: 10)
         let session = URLSession(configuration: .default, delegate: nil, delegateQueue: OperationQueue.main)
         let task = session.dataTask(with: request) { (data, response, error) in
@@ -42,10 +42,9 @@ class SuperHeroVC: UIViewController, UICollectionViewDataSource, UICollectionVie
                 print(error.localizedDescription)
             } else if let data = data {
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
-                
                 self.movies = dataDictionary["results"] as! [[String: Any]]
                 self.collectionView.reloadData()
-                print(self.movies)
+                //print(self.movies)
             }
         }
         task.resume()
@@ -64,7 +63,6 @@ class SuperHeroVC: UIViewController, UICollectionViewDataSource, UICollectionVie
         let posterUrl = URL(string: Constants.OVURL.posterBaseURL + posterPath)
         
         cell.posterView.af.setImage(withURL: posterUrl!)
-        
         
         return cell
     }

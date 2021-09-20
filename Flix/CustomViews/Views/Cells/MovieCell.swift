@@ -17,7 +17,7 @@ class MovieCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         configure()
-//        viewHelp()
+        //viewHelp()
     }
     
     required init?(coder: NSCoder) {
@@ -48,7 +48,7 @@ class MovieCell: UITableViewCell {
             
             bodyLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor),
             bodyLabel.leadingAnchor.constraint(equalTo: posterView.trailingAnchor, constant: 8),
-            bodyLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16),
+            bodyLabel.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -16),
             bodyLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -8)
         ])
     }

@@ -8,10 +8,16 @@
 import UIKit
 import AlamofireImage
 
+protocol MovieDetailDelegate {
+    func didTapChoice(movie: [String: Any])
+}
+
 class MoviesTVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var tableView: UITableView = UITableView()
     var movies = [[String: Any]]()
+    
+    var detailDelegate: MovieDetailDelegate!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -79,5 +85,11 @@ class MoviesTVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         cell.posterView.af.setImage(withURL: posterUrl!)
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let destination = DetailVC()
+        destination.didTapChoice(movie: movies[indexPath.row])
+        navigationController?.pushViewController(destination, animated: true)
     }
 }

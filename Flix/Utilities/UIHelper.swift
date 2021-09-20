@@ -21,4 +21,11 @@ struct UIHelper {
             
             return flowLayout
         }
+    
+    static func createSixColumnFlowLayout(in view: UIView) -> UICollectionViewFlowLayout {
+        
+        let flowLayout = UICollectionViewFlowLayout()
+        // MARK: TODO 
+        return flowLayout
+    }
 }
